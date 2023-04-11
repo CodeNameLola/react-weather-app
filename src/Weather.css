@@ -54,3 +54,7 @@
   top: -30px;
   position: relative;
 }
+
+.Weather .stat {
+  margin-left: 70px;
+}
