@@ -1,5 +1,10 @@
-//import React from "react";
+import React, { useState } from "react";
 
+export default function WeatherBackground() {
+  const [color, setColor] = useState("grey");
+
+  return <div className="background"></div>;
+}
 // export default function WeatherBackground() {
 //if (hours > 17) {
 // return (
